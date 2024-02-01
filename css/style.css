@@ -1,0 +1,28 @@
+.ninjago {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+.come-on {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.come-on:nth-child(1) {
+    top: 0;
+    left: 0;
+    background-color: red;
+} 
+.come-on:nth-child(2) {
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: blue;
+    z-index: 2;
+}
+.come-on:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    background-color: green;
+}
